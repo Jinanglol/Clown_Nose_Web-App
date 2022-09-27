@@ -1,0 +1,19 @@
+h1{
+    font-size: 20px !important;
+}
+button:hover{
+    font-family: monospace;
+    color: ghostwhite !important;
+    background-color: red !important;
+    border: 10px solid cyan;
+}
+canvas{
+    margin-top: 60px;
+    animation-name: lol;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes lol{
+    from{box-shadow: 2px 2px 90px cyan;}
+    to{box-shadow: 2px 2px 90px red;}
+}
